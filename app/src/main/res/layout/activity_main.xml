@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/relativeLayout">
+
+            <TextView
+                android:id="@+id/teamA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team A"
+                android:textSize="35sp"
+                android:textColor="@color/black"
+                tools:layout_conversion_absoluteHeight="47dp"
+                tools:layout_editor_absoluteY="70dp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_conversion_absoluteWidth="120dp" />
+
+            <TextView
+                android:id="@+id/scoreA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="50sp"
+                tools:layout_conversion_absoluteHeight="67dp"
+                tools:layout_editor_absoluteY="157dp"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_conversion_absoluteWidth="28dp" />
+
+            <Button
+                android:id="@+id/point1A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 Point"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_editor_absoluteY="294dp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_conversion_absoluteWidth="122dp" />
+
+            <Button
+                android:id="@+id/point2A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 Point"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_editor_absoluteY="392dp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_conversion_absoluteWidth="122dp" />
+
+            <Button
+                android:id="@+id/point3A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Point"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_editor_absoluteY="490dp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_conversion_absoluteWidth="122dp" />
+
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            tools:layout_conversion_absoluteHeight="408dp"
+            tools:layout_editor_absoluteY="130dp"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_conversion_absoluteWidth="1dp" />
+
+
+
+            <TextView
+                android:id="@+id/teamB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team B"
+                android:textSize="35sp"
+                android:textColor="@color/black"
+                tools:layout_conversion_absoluteHeight="47dp"
+                tools:layout_editor_absoluteY="70dp"
+                tools:layout_editor_absoluteX="246dp"
+                tools:layout_conversion_absoluteWidth="118dp" />
+
+            <TextView
+                android:id="@+id/scoreB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="50sp"
+                tools:layout_conversion_absoluteHeight="67dp"
+                tools:layout_editor_absoluteY="157dp"
+                tools:layout_editor_absoluteX="291dp"
+                tools:layout_conversion_absoluteWidth="28dp" />
+
+            <Button
+                android:id="@+id/point1B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 Point"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_editor_absoluteY="294dp"
+                tools:layout_editor_absoluteX="251dp"
+                tools:layout_conversion_absoluteWidth="122dp" />
+
+            <Button
+                android:id="@+id/point2B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 Point"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_editor_absoluteY="392dp"
+                tools:layout_editor_absoluteX="251dp"
+                tools:layout_conversion_absoluteWidth="122dp" />
+
+            <Button
+                android:id="@+id/point3B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Point"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_editor_absoluteY="490dp"
+                tools:layout_editor_absoluteX="251dp"
+                tools:layout_conversion_absoluteWidth="122dp" />
+
+
+
+
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        tools:layout_conversion_absoluteHeight="51dp"
+        tools:layout_editor_absoluteY="631dp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_conversion_absoluteWidth="108dp" />
+
+</RelativeLayout>
